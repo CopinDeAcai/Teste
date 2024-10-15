@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="content">
-        <input type="file" onchange="encodeImageFileAsURL(this)" />
-        <input type="image" id="image" src="">
+        <input type="file" onchange="encodeToBase64(this)" />
+        <iframe src="" id="file" frameborder="0"></iframe>
     </div>
 </body>
 <script src="script.js"></script>
